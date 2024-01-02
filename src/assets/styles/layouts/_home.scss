@@ -1,6 +1,3 @@
-//$tenis-corporate
-.color-corporate-black{ color: #000078; } 
-
 //$footer-width
 .width-footer-90{ width: 90%; }
 
@@ -45,12 +42,12 @@ body {
   max-width: 1320px;
 }
 
-.cabecera {
+/*.cabecera {
   display: flex;
   justify-content: space-around;
   height: 10vh;
   border-bottom: 1px solid $tenis-corporate;
-}
+}*/
 
 .cabecera__logo-img {
   -o-object-fit: cover;
@@ -272,10 +269,7 @@ li span {
   }
 
   .cabecera {
-    display: grid;
     grid-template-rows: 10vh;
-    grid-template-columns: 1fr 1fr 2fr 2fr;
-    justify-content: unset;
   }
 
   .cabecera__logo-img {
