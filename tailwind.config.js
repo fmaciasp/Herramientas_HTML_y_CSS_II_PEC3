@@ -9,7 +9,18 @@ module.exports = {
       'md': '768px',
       'lg': '1024px',
     },
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        'custom': '10vh 10vh 10vh 35vh 15vh',
+      },
+      gridTemplateColumns: {
+        'custom': '1fr 1fr 2fr 2fr',
+      },
+      colors: {
+        primary: "#000078",
+        secondary: "#73edff",
+      },
+    },
     
   },
   plugins: [],
